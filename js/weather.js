@@ -1,4 +1,4 @@
-const API_KEY = fe738b6decc87e414bc64f41047c3e0d; // API key not activated
+const API_KEY = fe738b6decc87e414bc64f41047c3e0d; // API key not activated 
 
 function onGeoLoc(position) {
     const lat = position.coords.latitude;
