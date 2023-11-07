@@ -1,3 +1,62 @@
 .hidden {
     display: none;
 }
+
+
+body, html {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.clock {
+    font-size: 10em;
+}
+
+div {
+    display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+#bgImage{
+    position:absolute;
+    left:0;
+    top:0;
+	max-width:100%;
+    max-height:1400px;
+    min-height:1200px;
+    z-index:-5;
+    filter: brightness(30%);
+}
+
+#login-form{
+    text-align:center;
+    color:black;
+    margin:0 auto;
+}
+
+
+
